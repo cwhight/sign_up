@@ -42,12 +42,7 @@
 
   <body>
 
-    <% unless params[:controller] == 'pages' && params[:action] == 'home' || params[:controller] == 'pages' && params[:action] == 'sign_up' %>
 
-      <%= render 'shared/navbar' %>
-      <%= render 'shared/top-mobile-nav' %>
-    <% end %>
-    <%= render 'layouts/messages' %>
         <%= yield %>
 
     <!-- <div class="notice"><%#= notice %></div> -->
@@ -63,8 +58,6 @@
 
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
-    <% unless params[:controller] == 'chats' && params[:action] == 'show' %>
-      <%= render 'pages/bottom-navbar' %>
-    <% end %>
+
   </body>
 </html>

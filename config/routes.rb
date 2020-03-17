@@ -6,6 +6,11 @@ Rails.application.routes.draw do
 
   devise_for :users
   root to: 'sign_ups#new'
+
+  resources :sign_ups, only: :create
+
+  get 'congratulations', to: 'sign_ups#congratulations', as: :congratulations
+
   get '/home', to: 'pages#home', as: :home
   resources :jobs do
     resources :favourites, only: [:create, :destroy]

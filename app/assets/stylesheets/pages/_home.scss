@@ -6,12 +6,8 @@
 
 body {
   font-family: Lato;
-  min-height: 92vh;
-  padding-top: 66px;
-  margin: 0;
-  overflow-x: hidden;
-  background: white;
-  color: #484848
+  background-color: #2969da;
+  color: #484848;
 }
 
 @media (max-width: 500px) {
@@ -21,6 +17,11 @@ body {
   }
 
 }
+
+.headline {
+  color: white;
+}
+
 
 .scrollable-menu {
   top: -230px !important;
