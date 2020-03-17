@@ -8,7 +8,7 @@ class UserMailer < ApplicationMailer
   def welcome
 
     @greeting = "Hi"
-    @user = params[:user]
+    @user = params[:sign_up]
     mail(to: @user.email, subject: 'Welcome to Template')
   end
 end
