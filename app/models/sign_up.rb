@@ -1,5 +1,6 @@
 class SignUp < ApplicationRecord
   after_create :send_welcome_email
+  validates :email, presence: true
 
   private
 
