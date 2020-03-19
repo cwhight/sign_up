@@ -14,7 +14,7 @@ import { initSweetalert } from '../plugins/init_sweetalert';
 import { showJobs} from '../components/showJobs';
 import { stickyNavbar} from '../components/stickyNavbar';
 import { openMessages } from '../components/inbox';
-// import { enable } from '../components/sign_up';
+import { enable} from '../components/sign_up';
 
 if (document.getElementById("open-apps")) {
   openMessages();
@@ -46,7 +46,11 @@ openApply();
 closeApply();
 initMapbox();
 initAutocomplete();
-// enable();
+// signupClick();
+
+  enable();
+
+
 
 const checkBox = document.querySelector(".user_employer");
 const employerSvg = document.querySelector(".employer");

@@ -37,9 +37,7 @@
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
-        <div id="email-input">
 
-        </div>
 <div class="form-inputs sign-up-modal-form">
  <div class="p-3">
 <!--     <img src="https://res.cloudinary.com/dt02hu2ll/image/upload/v1575471730/template-404-logo_njqxag.png
@@ -54,8 +52,8 @@
                       required: true,
                       autofocus: true,
                       placeholder: "Email address",
-                      input_html: { autocomplete: "email" },
-                      id: "email-input"%>
+                      input_html: { autocomplete: "email", id: "email-input" }
+                      %>
 
 
 
@@ -78,8 +76,8 @@
 
 
 
-        <%= f.button :submit, "Sign up", id: "user-sign-up", class: "btn btn-sign-up float-right"%>
-        </div>
+        <%= f.button :submit, "Sign up", id: "user-sign-up", class: "d-none btn btn-sign-up float-right"%>
+
       <% end %>
   </div>
 </div>
