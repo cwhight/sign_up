@@ -1,14 +1,10 @@
 <div class="fixed-top navbar navbar-expand-sm navbar-light navbar-lewagon transparent-nav" id="site_header">
-    <p></p>
-    <%= render 'shared/avatar', class: 'homepage-avatar ' %>
+      <%= link_to 'About Us', root_path, class: "nav-link"  %>
+
+      <%= link_to 'Job Seekers', root_path, class: "nav-link"  %>
+
+      <%= link_to 'Employers', root_path, class: "nav-link" %>
 </div>
 
-<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog signup-modal-master" role="document">
-    <div class="modal-content signup-modal">
-      <%= render 'devise/registrations/new' %>
-    </div>
-  </div>
-</div>
+
 
