@@ -1,9 +1,0 @@
-var messageBox = document.getElementById('message-box');
-
-function refreshBox(innerHTML) {
-  messageBox.innerHTML = innerHTML;
-}
-
-
-  refreshBox('<%= j render "chats/message-box", message: Message.new, chat: chat %>'
-
