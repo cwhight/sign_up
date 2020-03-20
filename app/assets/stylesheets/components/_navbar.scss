@@ -1,5 +1,5 @@
 @media (max-width: 500px) {
-  .navbar-lewagon {
+  .transparent-nav {
     display: none !important
   }
 
@@ -75,15 +75,15 @@
   z-index: 1000;
 }
 
-.navbar-lewagon .navbar-collapse {
+.transparent-nav .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.transparent-nav .navbar-brand img {
   width: 135px;
 }
 
-.navbar-lewagon-white {
+.transparent-nav-white {
   background-color: white;
   opacity: 0.7;
 }
@@ -109,17 +109,22 @@
 }
 
 .nav-link {
-    font-size: 20px;
-    font-weight:lighter;
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight:lighter;
   color: white;
   text-decoration: none;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .nav-link:hover {
   background-color: white;
+}
+
+.transparent-nav {
+  background-color: rgba(0,0,0,0);
+  padding-right: 20px;
 }
