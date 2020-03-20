@@ -29,6 +29,20 @@
   transition: background 0.1s ease;
 }
 
+.btn-twitter {
+  color: #00acee;
+  border: 1px solid #00acee;
+  padding: 8px 24px;
+  border-radius: 50px;
+  transition: background 0.1s ease;
+}
+
+.btn-twitter:hover {
+  background: #00acee;
+  color: white;
+}
+
+
 .btn-flat:hover {
   background: #2969DA;
   color: white;
