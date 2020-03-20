@@ -8,7 +8,7 @@ body {
   font-family: Lato;
   background-color: #2969da;
   color: #484848;
-  min-height: 100vh;
+  min-height: 120vh;
 }
 
 @media (max-width: 500px) {
@@ -21,6 +21,7 @@ body {
 
 .headline {
   color: white;
+  text-align: center;
 }
 
 
@@ -95,7 +96,6 @@ p {
 
 .footer {
   background-color: white;
-  min-height: 45vh;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -106,20 +106,24 @@ p {
 @media (max-width: 500px) {
   .footer {
     min-height: 10vh;
+    max-height: 20vh;
   }
 
   .full {
     display: none;
   }
-
 }
 
 @media (min-width: 500px) {
-
   .mob {
     display: none;
   }
+}
 
+@media screen and (max-height: 700px) {
+    .hide {
+        display: none !important;
+    }
 }
 
 .border-2 {

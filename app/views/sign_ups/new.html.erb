@@ -1,18 +1,23 @@
 <%= cl_image_tag "https://res.cloudinary.com/dt02hu2ll/image/upload/v1574099382/Template_Logo_V1_evmfvp.png", alt: "alttext", height: 60, class: 'homepage-img'%>
-<div class="container h-100 my-3 p-3">
-  <div class="d-flex flex-column justify-content-around">
-    <div class="mt-3">
-      <div id="">
-        <div class="row">
-          <div class="col-12 mx-0">
-            <h1 class="headline p-3">The quickest and easiest way to find short term work that suits your lifestyle.</h1>
-          </div>
+<div class="container my-3 p-3">
+  <div class="d-flex justify-content-around">
+    <div class="mt-5">
+      <div class="row">
+        <div class="col-12 full">
+          <h1 class="headline p-3">The quickest and easiest way to find short term work that suits your lifestyle.</h1>
         </div>
-<!--         <%= image_tag "undraw_modern_life_u1ev.svg", alt: "alttext", class: 'homepage-image d-none d-lg-block d-xl-block' %>
- -->
-        <div class="px-3 ">
-          <div href="#" id="signup" class="clickable W-100 btn btn-sign-up"  data-toggle="modal" data-target="#signup_form">Sign up</div>
+        <div class="col-12 mob">
+          <h3 class="headline">The quickest and easiest way to find short term work that suits your lifestyle.</h3>
         </div>
+      </div>
+      <div class="p-5 d-flex justify-content-center hide">
+        <div href="#" id="" class="clickable W-100 btn btn-ghost">Learn more</div>
+      </div>
+      <div class="col-12 full justify-content-center hide">
+        <h3 class="headline p-3">Launching soon - Sign up now for future discounts!</h3>
+      </div>
+      <div class="p-5 d-flex justify-content-center">
+        <div href="#" id="signup" class="clickable W-100 btn btn-sign-up"  data-toggle="modal" data-target="#signup_form">Sign up</div>
       </div>
     </div>
     <div class="modal fade" id="signup_form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -27,8 +32,6 @@
           </div>
           <div class="form-inputs sign-up-modal-form">
            <div class="p-3">
-          <!--     <img src="https://res.cloudinary.com/dt02hu2ll/image/upload/v1575471730/template-404-logo_njqxag.png
-              " class="template-500-logo"> -->
               <div>
                 <%= simple_form_for(@sign_up, url: sign_ups_path(@sign_up)) do |f| %>
                   <%= f.error_notification %>
