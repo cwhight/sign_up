@@ -105,7 +105,19 @@ p {
 
 @media (max-width: 500px) {
   .footer {
-    min-height: 20vh;
+    min-height: 10vh;
+  }
+
+  .full {
+    display: none;
+  }
+
+}
+
+@media (min-width: 500px) {
+
+  .mob {
+    display: none;
   }
 
 }
