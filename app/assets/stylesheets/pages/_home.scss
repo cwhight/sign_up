@@ -8,7 +8,7 @@ body {
   font-family: Lato;
   background-color: #2969da;
   color: #484848;
-  min-height: 120vh;
+  min-height: 100vh;
 }
 
 @media (max-width: 500px) {
@@ -120,7 +120,7 @@ p {
   }
 }
 
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 800px) {
     .hide {
         display: none !important;
     }
