@@ -21,6 +21,7 @@ body {
 
 .headline {
   color: white;
+  text-align: center;
 }
 
 
@@ -95,7 +96,6 @@ p {
 
 .footer {
   background-color: white;
-  min-height: 45vh;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -106,20 +106,24 @@ p {
 @media (max-width: 500px) {
   .footer {
     min-height: 10vh;
+    max-height: 20vh;
   }
 
   .full {
     display: none;
   }
-
 }
 
 @media (min-width: 500px) {
-
   .mob {
     display: none;
   }
+}
 
+@media screen and (max-height: 800px) {
+    .hide {
+        display: none !important;
+    }
 }
 
 .border-2 {
@@ -167,6 +171,7 @@ p {
 
 .homepage-img {
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 .fixed-top {
@@ -177,10 +182,6 @@ p {
 .mobile-avatar {
   margin: 0px;
   }
-}
-
-.transparent-nav {
-  background-color: rgba(0,0,0,0);
 }
 
 .fa-check-circle {
