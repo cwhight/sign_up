@@ -96,6 +96,9 @@ p {
 
 .footer {
   background-color: white;
+
+  // min-height: 40vh;
+
   position: fixed;
   left: 0;
   bottom: 0;
@@ -119,6 +122,13 @@ p {
     display: none;
   }
 }
+
+// @media (min-width: 1000px) {
+//   .footer {
+//     min-height: 10vh;
+//     max-height: 20vh;
+//   }
+// }
 
 @media screen and (max-height: 800px) {
     .hide {
