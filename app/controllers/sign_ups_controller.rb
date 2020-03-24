@@ -16,6 +16,12 @@ class SignUpsController < ApplicationController
   def congratulations
   end
 
+  def job_seeker
+  end
+
+  def job_provider
+  end
+
   private
 
   def sign_up_params
