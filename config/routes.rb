@@ -4,8 +4,8 @@ Rails.application.routes.draw do
 
   root to: 'sign_ups#new'
 
-  get '/job_provider', to: 'sign_ups#job_provider'
-  get '/job_seeker', to: 'sign_ups#job_seeker'
+  get '/provider', to: 'sign_ups#provider', as: :provider
+  get '/seeker', to: 'sign_ups#seeker', as: :seeker
 
   resources :sign_ups, only: :create
 
