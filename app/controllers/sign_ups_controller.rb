@@ -17,9 +17,11 @@ class SignUpsController < ApplicationController
   end
 
   def job_seeker
+    @sign_up = SignUp.new
   end
 
   def job_provider
+    @sign_up = SignUp.new
   end
 
   private
