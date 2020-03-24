@@ -120,6 +120,12 @@ p {
   }
 }
 
+@media screen and (max-height: 680px) {
+    .hide1 {
+        display: none !important;
+    }
+}
+
 @media screen and (max-height: 800px) {
     .hide {
         display: none !important;

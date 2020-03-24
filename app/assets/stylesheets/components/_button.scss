@@ -51,7 +51,10 @@
 .btn-ghost {
   color: white;
   background-color: #D36135;
+  min-width: 125px;
   padding: 8px 24px;
+  margin-left: 8px;
+  margin-right: 8px;
   border-radius: 50px;
   opacity: 1;
   transition: opacity 0.1s ease;
