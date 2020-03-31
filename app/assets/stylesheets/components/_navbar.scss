@@ -1,5 +1,5 @@
 @media (max-width: 600px) {
-  .transparent-nav {
+  .blue-nav {
     display: none !important
   }
 
@@ -75,11 +75,11 @@
   z-index: 1000;
 }
 
-.transparent-nav .navbar-collapse {
+.blue-nav .navbar-collapse {
   flex-grow: 0;
 }
 
-.transparent-nav .navbar-brand img {
+.blue-nav .navbar-brand img {
   width: 135px;
 }
 
@@ -125,4 +125,8 @@
 
 .transparent-nav {
   background-color: rgba(0,0,0,0);
+}
+
+.blue-nav {
+  background-color: #2a69da;
 }
