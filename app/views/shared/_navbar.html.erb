@@ -1,13 +1,21 @@
-<div class="fixed-top d-flex text-right justify-content-between transparent-nav">
-<div></div>
-  <div class="d-flex text-right">
-
-      <%= link_to 'About Us', root_path, class: "float-right nav-link"  %>
-
-      <%= link_to 'Job Seekers', root_path, class: "nav-link"  %>
-
-      <%= link_to 'Employers', root_path, class: "nav-link" %>
-
+<div class="fixed-top d-flex text-right justify-content-between navbar-expand-sm transparent-nav pt-3">
+  <a class="pl-5" href="/">
+    <%= cl_image_tag "https://res.cloudinary.com/dt02hu2ll/image/upload/v1574099382/Template_Logo_V1_evmfvp.png", alt: "alttext", height: 60, class: 'logo'%>
+  </a>
+  <div></div>
+  <div class="navbar-collapse">
+    <ul class="navbar-nav mr-auto d-flex justify-content-end">
+      <li class="nav-item">
+        <%= link_to 'Job Seekers', seeker_path, class: "nav-link px-3"  %>
+      </li>
+      <li class="nav-item">
+        <%= link_to 'Job Providers', provider_path, class: "nav-link px-3" %>
+      </li>
+      <li class="nav-item pr-5 pl-3" id="signup">
+        <div href="#" id="signup" class="clickable btn btn-sign-up"  data-toggle="modal" data-target="#signup_form">Sign up</div>
+      </li>
+    </ul>
   </div>
 </div>
+
 

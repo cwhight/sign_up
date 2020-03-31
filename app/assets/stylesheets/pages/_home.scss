@@ -123,12 +123,11 @@ p {
   }
 }
 
-// @media (min-width: 1000px) {
-//   .footer {
-//     min-height: 10vh;
-//     max-height: 20vh;
-//   }
-// }
+@media screen and (max-height: 680px) {
+    .hide1 {
+        display: none !important;
+    }
+}
 
 @media screen and (max-height: 800px) {
     .hide {
