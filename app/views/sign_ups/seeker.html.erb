@@ -2,9 +2,19 @@
 <br>
 <br>
 <br>
-<br>
-<h2>Job Seeker</h2>
-
-
+<div class="banner scol-lg-5 align-self-center">
+  <div class="container">
+    <br>
+    <br>
+    <br>
+    <h1>Job Seekers</h1>
+    <br>
+    <br>
+    <p>Find shifts at the click of a button!</p>
+    <br>
+    <br>
+    <%= link_to "Sign Up", "/users/sign_up", class: "btn btn-sign-up" %>
+  </div>
+</div>
 
 <%= render 'sign_ups/sign_up_modal', sign_up: @sign_up %>
