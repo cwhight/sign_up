@@ -13,7 +13,7 @@ const enable = () => {
 
       submit.classList.remove("d-none")
     } else {
-      submit.classList.add("d-none")
+      submit.classList.add("")
 
     }
   });
