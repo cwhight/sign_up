@@ -2,8 +2,8 @@ Rails.application.routes.draw do
 
   require "sidekiq/web"
 
-  get '/provider', to: 'sign_ups#provider', as: :provider
-  get '/seeker', to: 'sign_ups#seeker', as: :seeker
+  get '/provider', to: 'sign_ups#job_provider', as: :provider
+  get '/seeker', to: 'sign_ups#job_seeker', as: :seeker
 
   root to: 'sign_ups#new'
 
