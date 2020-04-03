@@ -19,6 +19,12 @@ body {
 
 }
 
+@media screen and (max-height: 680px) {
+    .hide1 {
+        display: none !important;
+    }
+}
+
 .headline {
   color: white;
   text-align: center;
