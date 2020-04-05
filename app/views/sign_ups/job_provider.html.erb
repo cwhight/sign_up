@@ -1,2 +1,66 @@
 <%= cl_image_tag "https://res.cloudinary.com/dt02hu2ll/image/upload/v1574099382/Template_Logo_V1_evmfvp.png", alt: "alttext", height: 60, class: 'homepage-img'%>
-    <%= render 'sign_ups/shared/sign_up_modal_form', sign_up: @sign_up %>
+<!-- Banner -->
+<div class="banner_providers scol-lg-5 align-self-center">
+  <div class="container">
+    <br>
+    <h1>Job Providers</h1>
+    <br>
+    <br>
+    <p>Find vetted workers to fill shifts at the click of a button!</p>
+    <br>
+    <br>
+    <div href="#" id="signup" class="clickable btn btn-sign-up"  data-toggle="modal" data-target="#signup_form">Sign up</div>
+  </div>
+</div>
+
+<!-- Process -->
+<div class="process-box alternative-background min-height">
+  <h1 class="features-heading alternative-background">How it works</h1>
+  <div class="row">
+    <div class="col-sm-12 col-md-4 d-flex flex-column align-items-center py-5 px-4">
+      <div class="sign-up-box">
+        <p class="number">1</p>
+      </div>
+      <h1 class="process-heading">Sign Up</h1>
+      <p style="text-align:center;">It takes less than 2 minutes to create an account</p>
+    </div>
+    <div class="col-sm-12 col-md-4 d-flex flex-column align-items-center py-5 px-4">
+      <div class="sr-box">
+        <p class="number">2</p>
+      </div>
+      <h1 class="process-heading">Advertise Shifts</h1>
+      <p style="text-align:center;">Advertise shifts and select your favourite applicants</p>
+    </div>
+    <div class="col-sm-12 col-md-4 d-flex flex-column align-items-center py-5 px-4">
+      <div class="sd-box">
+        <p class="number">3</p>
+      </div>
+      <h1 class="process-heading">Confirm Attendance</h1>
+      <p style="text-align:center;">Workers are paid immeadiately at the end of their shift</p>
+    </div>
+  </div>
+  <br>
+</div>
+
+<!-- Sign Up -->
+<h1 class="sign-up-heading">Sign Up</h1>
+<br>
+<div class="container align-items-center">
+  <div class="form-inputs sign-up-page-form">
+    <div class="p-3">
+      <div>
+        <div class="clickable w-100 btn btn-sign-up" data-toggle="modal" data-target="#signup_form">Sign Up</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+   <%= render 'sign_ups/shared/sign_up_modal_form', sign_up: @sign_up %>

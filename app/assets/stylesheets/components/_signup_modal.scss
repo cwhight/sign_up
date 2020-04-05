@@ -7,11 +7,33 @@
 }
 
 .sign-up-modal-form {
-
   letter-spacing: -0.05em;
   margin-top: 10px;
   font-weight: 700;
 
+}
+
+.full-opacity-modal {
+  opacity: 1 !important;
+  width: 120px;
+  height: 120px;
+  background: #5DD4A6;
+  border-radius: 50%;
+  color: #FFF;
+  font-size: 20px;
+  text-align: center;
+  line-height: 100px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  animation: animate-pulse 3s linear infinite;
+  cursor: pointer
+}
+
+.sign-up-page-form {
+  letter-spacing: -0.05em;
+  margin-top: 10px;
+  font-weight: 700;
+  color: white;
 }
 
 .signup-title {
