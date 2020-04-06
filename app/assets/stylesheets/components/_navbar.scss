@@ -5,6 +5,10 @@
 
 }
 
+.scroll {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
 @media (min-width: 500px) {
   .navbar-bottom {
     display: none !important
@@ -32,6 +36,10 @@
   font-size: 40px;
 }
 
+.mob-home {
+  color: white !important;
+  font-size: 25px;
+}
 
 .bottom-navlink {
   color: #2969DA;
@@ -41,12 +49,12 @@
 
 .navbar-top-mobile {
   justify-content: space-between;
-  background-color: #2969da;
+  background-color: rgba(0,0,0,0);
   // border-bottom-style: solid;
   // border-bottom-color: #2969DA;
   color: white;
   max-width: 100%;
-  min-height: 40px;
+  max-height: 10vh;
 }
 
 .navbar-bottom {
@@ -80,7 +88,7 @@
 }
 
 .transparent-nav .navbar-brand img {
-  width: 135px;
+  height: 60px
 }
 
 .transparent-nav-white {

@@ -1,6 +1,6 @@
 import "bootstrap";
 import { openApply, closeApply } from '../components/apply';
-
+import { scroll } from '../components/navbar'
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { initMapbox } from '../plugins/init_mapbox';
 import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css';
@@ -19,6 +19,13 @@ import { enable} from '../components/sign_up';
 if (document.getElementById("open-apps")) {
   openMessages();
 }
+
+window.onscroll = () => {
+  const nav = document.querySelector('#full-nav');
+  if(window.scrollY <= 500) nav.classList.remove('scroll'); else nav.classList.add('scroll');
+    const mobNav = document.querySelector('#mob-nav');
+  if(window.scrollY <= 500) mobNav.classList.remove('scroll'); else mobNav.classList.add('scroll');
+};
 
 initSweetalert('#confirm-job', {
   title: "Done",

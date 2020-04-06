@@ -19,6 +19,4 @@ const enable = () => {
   });
 }
 
-
-
 export {enable}
