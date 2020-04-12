@@ -49,6 +49,22 @@
   color: #167FFB;
 }
 
+@media (max-width: 500px) {
+  .employer_input {
+    .svg-input {
+      height: same-as-width;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .employer_input {
+    .svg-input {
+      height: 200px;
+    }
+  }
+
+}
 
 .employer_input {
   display: flex;
@@ -59,7 +75,6 @@
 
   .svg-input {
     width: 200px;
-    height: 200px;
     opacity: .7;
     svg {
       width: 100%;

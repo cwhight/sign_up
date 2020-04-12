@@ -41,21 +41,14 @@ initSweetalert('#employee-apply-sweetalert', {
   buttons: false
 });
 
-// initSweetalert('#user-sign-up', {
-//   title: "Done",
-//   text: "Thanks for signing up!",
-//   icon: "success",
-//   buttons: false
-// });
 
 initSelect2();
 openApply();
 closeApply();
 initMapbox();
 initAutocomplete();
-// signupClick();
 
-  enable();
+enable();
 
 
 
