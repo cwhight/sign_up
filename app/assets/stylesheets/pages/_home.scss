@@ -125,12 +125,22 @@ p {
   }
 }
 
+.flex {
+  display: flex;
+}
+
 @media (min-width: 500px) {
   .mob {
     display: none;
   }
 }
 
+
+@media (max-width: 500px) {
+  .full-hide {
+    display: none;
+  }
+}
 // @media (min-width: 1000px) {
 //   .footer {
 //     min-height: 10vh;
