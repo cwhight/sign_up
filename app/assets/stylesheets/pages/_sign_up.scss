@@ -4,7 +4,7 @@
 
 .banner {
   width: 100%;
-  min-height: 85vh;
+  min-height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -17,11 +17,13 @@
 }
 
 .home-banner {
-  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url("https://res.cloudinary.com/cwhight/image/upload/v1586176478/9213EF22-AAEF-4102-AEB8-D9F6DDE934F6_1_201_a_vmxvv5.jpg");
+  height: 100vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url("https://res.cloudinary.com/cwhight/image/upload/v1587227364/employee-backgorund_a2j3ua.jpg");
 }
 
 .employer-banner {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://res.cloudinary.com/cwhight/image/upload/v1587139667/employer_background_v9pej1.jpg");
+  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://res.cloudinary.com/cwhight/image/upload/v1587229043/employer_background_cropped_zloqvm.jpg");
 }
 
 .large-title {
