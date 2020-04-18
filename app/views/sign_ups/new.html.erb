@@ -4,16 +4,22 @@
   <div>
     <h1 class="headline p-3 full">The quickest and easiest way to find short term work that suits your lifestyle.</h1>
     <h2 class="headline mob">The quickest and easiest way to find short term work that suits your lifestyle.</h3>
-    <div class="p-5 d-flex justify-content-center">
-      <div href="#" class="clickable btn btn-sign-up w-50"  data-toggle="modal" data-target="#signup_form">Sign up</div>
+    <div class="p-3 flex text-center d-none d-lg-block">
+      <div href="#" class="clickable btn btn-sign-up w-25 mx-1"  data-toggle="modal" data-target="#employee_signup_form">Sign up to Find Shifts</div>
+      <div href="#" class="clickable btn btn-ghost w-25 mx-1"  data-toggle="modal" data-target="#employer_signup_form">Sign up as an Employer</div>
     </div>
-    <div class="col-12 full justify-content-center full">
+    <div class="p-3 flex justify-content-around d-lg-none">
+      <div href="#" class="clickable btn btn-sign-up w-50 mx-1"  data-toggle="modal" data-target="#signup_form">Sign Up</div>
+    </div>
+
+    <div class="d-none d-lg-block">
       <h3 class="headline p-3">Launching soon - Sign up now for future discounts!</h3>
     </div>
   </div>
 
 </div>
-  <%= render 'sign_ups/shared/sign_up_modal_form', sign_up: @sign_up %>
+  <%= render 'sign_ups/shared/employee_sign_up_modal_form', sign_up: @sign_up %>
+  <%= render 'sign_ups/shared/employer_sign_up_modal_form', sign_up: @sign_up %>
 </div>
 
 
