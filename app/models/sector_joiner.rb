@@ -1,4 +1,4 @@
 class SectorJoiner < ApplicationRecord
-  belongs_to :job
   belongs_to :sector
+  belongs_to :sign_up
 end

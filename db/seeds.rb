@@ -20,16 +20,16 @@ sectors = ["Administrative",
 "Sales",
 "Security",
 "Social Care",
-"Telecommunications"
+"Telecommunications",
 "Training",
 "Transportation",
 "Travel",
-"Volunteering",
-"Other"].sort
+"Volunteering"].sort
+
+sectors << "Others"
 
 sectors.each do |e|
   puts "seeding with #{e}"
   Sector.create!(title: e)
-  Skill.create!(title: e)
 end
 

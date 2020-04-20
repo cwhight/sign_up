@@ -6,6 +6,12 @@
   padding: 30px;
 }
 
+@media (max-width: 500px) {
+  .signup-modal {
+    padding: 10px;
+  }
+}
+
 .sign-up-modal-form {
   letter-spacing: -0.05em;
   margin-top: 10px;
@@ -70,8 +76,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10vh;
-  margin-top: 5vh;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
 
   .svg-input {
     width: 200px;
