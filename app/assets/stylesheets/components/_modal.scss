@@ -1,9 +1,10 @@
   .modal.left .modal-dialog,
   .modal.right .modal-dialog {
     position: fixed;
+    bottom: 0px;
     margin: auto;
     width: 50%;
-    height: 100%;
+    min-height: 70%;
     -webkit-transform: translate3d(0%, 0, 0);
         -ms-transform: translate3d(0%, 0, 0);
          -o-transform: translate3d(0%, 0, 0);
