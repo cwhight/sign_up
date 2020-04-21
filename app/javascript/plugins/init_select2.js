@@ -3,8 +3,9 @@ import 'select2';
 
 const initSelect2 = () => {
   $('.sector-picker').select2({
-    placeholder: "Select job sectors...",
-    allowClear: true
+    allowClear: true,
+    placeholder: "Select sectors you're interested in...",
+    width: '100%'
   });
     $('.skill-picker').select2({
     placeholder: "Select skills...",

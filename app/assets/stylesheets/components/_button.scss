@@ -6,6 +6,18 @@
   font-weight: bold;
 }
 
+.disabled-button {
+  color: white !important;
+  background-color: #888888 !important;
+  border: none !important;
+  border-radius: 50px;
+}
+
+.disabled-button:hover {
+  color: white !important;
+
+}
+
 .btn-gradient {
   color: white;
   padding: 8px 24px;

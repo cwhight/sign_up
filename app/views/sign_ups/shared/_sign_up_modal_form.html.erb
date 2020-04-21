@@ -34,7 +34,7 @@
                     </div>
                     <%= f.association :sectors, label_method: :title, value_method: :id, input_html: { class: 'sector-picker' } %>
 
-                    <%= f.button :submit, "Sign up", id: "user-sign-up", class: "d-none btn btn-sign-up float-right"%>
+                    <%= f.button :submit, "Sign up", id: "user-sign-up", class: "w-100 btn disabled-button float-right", disabled: true%>
                 <% end %>
               </div>
             </div>
