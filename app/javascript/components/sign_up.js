@@ -20,6 +20,20 @@ const enable = () => {
 
     }
   });
+
+    email.addEventListener("blur", (e) => {
+
+    if (re.test(email.value)) {
+      submit.disabled = false
+      submit.classList.remove("disabled-button")
+      submit.classList.add("btn-sign-up")
+    } else {
+      submit.classList.add("disabled-button")
+      submit.classList.remove("btn-sign-up")
+      submit.disabled = true
+
+    }
+  });
 }
 
 export {enable}
