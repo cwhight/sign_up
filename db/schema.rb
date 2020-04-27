@@ -68,7 +68,6 @@ ActiveRecord::Schema.define(version: 2020_04_20_123023) do
     t.boolean "done"
     t.string "summary"
     t.text "dress"
-    t.string "venue"
     t.index ["user_id"], name: "index_jobs_on_user_id"
   end
 
